@@ -1,0 +1,21 @@
+{
+  "name": "fleet-color-theme",
+  "displayName": "Fleet Color Theme",
+  "description": "Default themes used in Jetbrains Fleet",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fleet Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Color Theme-color-theme.json"
+      }
+    ]
+  }
+}
