@@ -1,9 +1,8 @@
 # Change Log
 
-All notable changes to the "fleet-color-theme" extension will be documented in this file.
+## [0.0.1 - 3-18-2022]
+#### Added
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Initial theme (Fleet Dark)
 
-## [Unreleased]
 
-- Initial release

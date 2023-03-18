@@ -1,20 +1,38 @@
 {
   "name": "fleet-color-theme",
-  "displayName": "Fleet Color Theme",
+  "displayName": "Fleet Color Themes",
   "description": "Default themes used in Jetbrains Fleet",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.76.0"
+    "vscode": "^1.0.0"
   },
+  "publisher": "Shayan Ahmed Khan",
+  "author": {
+    "name": "Shayan Ahmed Khan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevShayan/fleet-color-theme.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fleet",
+    "fleet theme",
+    "fleet themes",
+    "fleet color theme",
+    "fleet color themes",
+    "fleet IDE theme"
+  ],
+  "icon": "icon.png",
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Fleet Color Theme",
+        "label": "Fleet Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Color Theme-color-theme.json"
+        "path": "./themes/fleet-dark-color-theme.json"
       }
     ]
   }
