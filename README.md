@@ -4,10 +4,9 @@ Jetbrains Fleet color themes contain one basic theme, Fleet Dark.
 
 ## Supported Languages
 
-* HTML
-* CSS
-* JS
+* HTML - CSS - JS
 * C++
+* JAVA - XML
 ---
 
 ## Applying theme
