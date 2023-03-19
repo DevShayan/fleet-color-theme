@@ -2,7 +2,7 @@
   "name": "fleet-color-theme",
   "displayName": "Fleet Color Themes",
   "description": "Default themes used in Jetbrains Fleet",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.0.0"
   },
