@@ -3,15 +3,9 @@
 	"colors": {
 		"editor.background": "#181818",
 		"editor.foreground": "#d1d1d1",
+		"focusBorder": "#0273eb",
 		"editor.lineHighlightBackground": "#292929",
 		"editor.lineHighlightBorder": "#00000000",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#181818",
-		"sideBar.border": "#383838",
-		"tab.inactiveBackground": "#292929",
-		"tab.activeBackground": "#181818",
-		"tab.activeBorderTop": "#d1d1d1",
 		"editorLineNumber.foreground": "#5d5d5d",
 		"editorLineNumber.activeForeground": "#c2c2c2",
 		"editorLineNumber.dimmedForeground": "#5d5d5d",
@@ -25,6 +19,30 @@
 		"editorBracketHighlight.foreground4": "#d1d1d1",
 		"editorBracketHighlight.foreground5": "#d1d1d1",
 		"editorBracketHighlight.foreground6": "#d1d1d1",
+		"editor.selectionBackground": "#163764",
+		"editor.inactiveSelectionBackground": "#163764",
+		"editorGroupHeader.tabsBackground": "#292929",
+		"editor.foldBackground": "#00000000",
+		"editorGutter.foldingControlForeground": "#767676",
+		"activityBar.background": "#292929",
+		"input.background": "#292929",
+		"list.inactiveSelectionBackground": "#383838",
+		"list.hoverBackground": "#2d2d2d",
+		"list.focusAndSelectionOutline": "#00000000",
+		"quickInput.background": "#292929",
+		"quickInputList.focusBackground": "#194176",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#181818",
+		"sideBar.border": "#383838",
+		"statusBar.background": "#181818",
+		"statusBar.noFolderBackground": "#181818",
+		"statusBar.debuggingBackground": "#181818",
+		"statusBar.border": "#383838",
+		"statusBar.foreground": "#767676",
+		"tab.inactiveBackground": "#292929",
+		"tab.activeBackground": "#181818",
+		"tab.activeBorderTop": "#d1d1d1",
+		"tab.unfocusedActiveBorderTop": "#181818",
 		"terminal.ansiBrightGreen":"#82d2ce",
 	},
 	"tokenColors": [
@@ -32,7 +50,8 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring"
 			],
 			"settings": {
 				"foreground": "#898989"
@@ -83,7 +102,19 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#82d2ce"
+				"foreground": "#af9cff"
+			}
+		},
+		{
+			"name": "Function declaration",
+			"scope": [
+				"entity.name.function.definition",
+				"entity.name.function.call",
+				"meta.function.python"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#efefef"
 			}
 		},
 		{
@@ -124,23 +155,22 @@
 			}
 		},
 		{
+			"name": "C++: Function call",
+			"scope": [
+				"entity.name.function.call"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#efefef"
+			}
+		},
+		{
 			"name": "C++: constructor",
 			"scope": [
 				"entity.name.function.definition.special.constructor"
 			],
 			"settings": {
 				"foreground": "#87c3ff"
-			}
-		},
-		{
-			"name": "C++: function name",
-			"scope": [
-				"entity.name.function.definition",
-				"entity.name.function.call"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#efefef"
 			}
 		},
 		{
@@ -397,5 +427,68 @@
 				"foreground": "#82d2ce"
 			}
 		},
+		{
+			"name": "Python: Function call / Same in java",
+			"scope": [
+				"meta.function-call.python"
+			],
+			"settings": {
+				"foreground": "#ebc88d"
+			}
+		},
+		{
+			"name": "Python: defaults",
+			"scope": [
+				"meta.function-call.arguments",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d1d1d1"
+			}
+		},
+		{
+			"name": "Markdown: Headings",
+			"scope": [
+				"heading"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#82d2ce"
+			}
+		},
+		{
+			"name": "Markdown: operators",
+			"scope": [
+				"punctuation.definition.list.begin.markdown",
+				"meta.separator.markdown",
+				"meta.image.inline.markdown",
+				"string.other.link.description.markdown",
+				"punctuation.definition.bold.markdown"
+			],
+			"settings": {
+				"foreground": "#82d2ce"
+			}
+		},
+		{
+			"name": "Markdown: path",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#e394dc"
+			}
+		},
+		{
+			"name": "Markdown: bold",
+			"scope": [
+				"markup.bold.markdown"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		
 	]
 }
