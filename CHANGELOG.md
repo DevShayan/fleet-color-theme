@@ -3,7 +3,8 @@
 ## [0.0.1 - 3-18-2022]
 
 #### Added
-- Support for HTML, CSS, JS, C++
+- Fleet Dark
+![Preview 1](preview/preview_fleet_dark.png)
 
 ## [0.1.0 - 3-19-2022]
 
@@ -17,4 +18,16 @@
 
 #### Changed
 - Editor colors
+
+## [0.2.0 - 3-26-2022]
+
+#### Added
+- Dark Purple Theme
+
+![Preview 1](preview/preview_dark_purple.png)
+
+#### Changed
+- Editor colors
+- C++ colors
+- Markdown colors
 

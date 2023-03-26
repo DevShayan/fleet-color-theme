@@ -33,6 +33,11 @@
         "label": "Fleet Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/fleet-dark-color-theme.json"
+      },
+      {
+        "label": "Dark Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-purple-color-theme.json"
       }
     ]
   }
