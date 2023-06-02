@@ -1,25 +1,15 @@
 # Change Log
 
-## [0.0.1 - 3-18-2022]
+## [1.1.0 - 6-02-2023]
 
 #### Added
-- Fleet Dark
-![Preview 1](preview/preview_fleet_dark.png)
-
-## [0.1.0 - 3-19-2022]
-
-#### Added
-- Support for JSON, XML, JAVA
-
-## [0.2.0 - 3-21-2022]
-
-#### Added
-- Support for Python, Markdown
+- Menu colors
+- Support for Dart
 
 #### Changed
-- Editor colors
+- Debug Console colors
 
-## [0.2.0 - 3-26-2022]
+## [1.0.0 - 3-26-2023]
 
 #### Added
 - Dark Purple Theme
@@ -31,3 +21,21 @@
 - C++ colors
 - Markdown colors
 
+## [0.2.0 - 3-21-2023]
+
+#### Added
+- Support for Python, Markdown
+
+#### Changed
+- Editor colors
+
+## [0.1.0 - 3-19-2023]
+
+#### Added
+- Support for JSON, XML, JAVA
+
+## [0.0.1 - 3-18-2023]
+
+#### Added
+- Fleet Dark
+![Preview 1](preview/preview_fleet_dark.png)

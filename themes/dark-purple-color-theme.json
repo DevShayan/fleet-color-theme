@@ -37,6 +37,10 @@
 		"checkbox.background": "#343445",
 		"checkbox.border": "#756b8c",
 		"checkbox.foreground": "#a4a1b3",
+		"debugConsole.infoForeground": "#b3b3b3",
+		"debugConsole.warningForeground": "#b3b3b3",
+		"debugConsole.errorForeground": "#c73649",
+		"debugConsole.sourceForeground": "#b3b3b3",
 		"dropdown.background": "#45405c",
 		"dropdown.listBackground": "#2c2c3b",
 		"gitDecoration.modifiedResourceForeground": "#62baf5",
@@ -73,6 +77,14 @@
 		"terminal.ansiBrightGreen":"#82d2ce",
 		"toolbar.hoverBackground": "#453e57",
 		"terminal.ansiBrightBlue":"#1d6bcc",
+		"titleBar.activeBackground": "#2c2c3b",
+		"titleBar.inactiveBackground": "#2c2c3b",
+		"menu.background": "#2c2c3b",
+		"menu.border": "#4e4c63",
+		"menu.separatorBackground": "#4e4c63",
+		"menu.foreground": "#d0d0d9",
+		"menu.selectionBackground": "#713a91",
+		"menubar.selectionBackground": "#453e57"
 	},
 	"tokenColors": [
 		{
@@ -136,6 +148,7 @@
 				"entity.name.function.definition",
 				"entity.name.function.python",
 				"meta.method.identifier.java",
+				"entity.name.function.dart"
 			],
 			"settings": {
 				"foreground": "#c7a65d"
@@ -417,6 +430,16 @@
 				"fontStyle": "bold"
 			}
 		},
-		
+		{
+			"name": "Dart: defaults",
+			"scope": [
+				"variable.language.dart",
+				"storage.modifier.dart",
+				"storage.type.primitive.dart"
+			],
+			"settings": {
+				"foreground": "#c9c9d1"
+			}
+		},
 	]
 }

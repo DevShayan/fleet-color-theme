@@ -35,11 +35,18 @@
 		"checkbox.background": "#292929",
 		"checkbox.border": "#5d5d5d",
 		"checkbox.foreground": "#ffffff",
+		"debugConsole.infoForeground": "#d1d1d1",
+		"debugConsole.warningForeground": "#d1d1d1",
+		"debugConsole.errorForeground": "#c73649",
+		"debugConsole.sourceForeground": "#d1d1d1",
 		"dropdown.background": "#484848",
 		"dropdown.listBackground": "#292929",
-		"gitDecoration.modifiedResourceForeground": "#62baf5",
-		"gitDecoration.untrackedResourceForeground": "#76B366",
-		"gitDecoration.conflictingResourceForeground": "#f0507a",
+		"gitDecoration.submoduleResourceForeground": "#d1d1d1",
+		"gitDecoration.addedResourceForeground": "#4ca988",
+		"gitDecoration.renamedResourceForeground": "#4ca988",
+		"gitDecoration.untrackedResourceForeground": "#4ca988",
+		"gitDecoration.modifiedResourceForeground": "#4d9bf8",
+		"gitDecoration.conflictingResourceForeground": "#d1a354",
 		"input.background": "#292929",
 		"input.border": "#484848",
 		"list.inactiveSelectionBackground": "#383838",
@@ -68,6 +75,14 @@
 		"tab.unfocusedActiveBorderTop": "#181818",
 		"terminal.ansiBrightGreen":"#82d2ce",
 		"terminal.ansiBrightBlue":"#1d6bcc",
+		"titleBar.activeBackground": "#292929",
+		"titleBar.inactiveBackground": "#292929",
+		"menu.background": "#292929",
+		"menu.border": "#383838",
+		"menu.separatorBackground": "#383838",
+		"menu.foreground": "#d1d1d1",
+		"menu.selectionBackground": "#194176",
+		"menubar.selectionBackground": "#194176"
 	},
 	"tokenColors": [
 		{
@@ -131,6 +146,7 @@
 				"entity.name.function.definition",
 				"meta.function.python",
 				"meta.method.identifier.java",
+				"entity.name.function.dart"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -466,6 +482,24 @@
 				"fontStyle": "bold"
 			}
 		},
-		
+		{
+			"name": "Dart: storage",
+			"scope": [
+				"storage.modifier.dart",
+				"storage.type.primitive.dart"
+			],
+			"settings": {
+				"foreground": "#87c3ff"
+			}
+		},
+		{
+			"name": "Dart: defaults",
+			"scope": [
+				"variable.language.dart"
+			],
+			"settings": {
+				"foreground": "#d1d1d1"
+			}
+		},
 	]
 }
