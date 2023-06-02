@@ -2,6 +2,9 @@
 
 Jetbrains Fleet color themes contain one basic theme, Fleet Dark.
 
+#### [GitHub Repository](https://github.com/DevShayan/fleet-color-theme)&nbsp;&nbsp;|&nbsp;&nbsp;[Report an issue](https://github.com/DevShayan/fleet-color-theme/issues)
+
+
 ## Supported Languages
 
 * HTML - CSS - JS
